@@ -1,0 +1,58 @@
+{
+  "timestamp": "2019-12-24T18:53:39",
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "1.8.2",
+    "typescriptVersion": "3.7.2"
+  },
+  "components": [
+    {
+      "dirPath": "path_to_project/src/components/atoms/aComponent",
+      "filePath": "src\\components\\atoms\\aComponent\\aComponent.tsx",
+      "fileName": "aComponent.tsx",
+      "readmePath": "path_to_project/src/components/atoms/aComponent/readme.md",
+      "usagesDir": "path_to_project/src/components/atoms/aComponent/usage",
+      "tag": "aComponent",
+      "usage": {},
+      "docs": "",
+      "docsTags": [],
+      "encapsulation": "shadow",
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {},
+      "props": [
+        {
+          "name": "aProperty",
+          "type": "string",
+          "mutable": false,
+          "attr": "a-property",
+          "reflectToAttr": false,
+          "docs": "",
+          "docsTags": [],
+          "default": "'primary'",
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [
+        {
+          "event": "anEvent",
+          "detail": "any",
+          "bubbles": true,
+          "cancelable": true,
+          "composed": true,
+          "docs": "",
+          "docsTags": []
+        }
+      ],
+      "styles": [],
+      "slots": []
+    }
+  ]
+}

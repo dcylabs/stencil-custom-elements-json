@@ -1,0 +1,21 @@
+{
+    "tags": [
+      {
+        "name": "aComponent",
+        "properties": [
+          {
+            "name": "aProperty",
+            "type": "string",
+            "default": "'primary'",
+            "defaultValue": "'primary'"
+          }
+        ],
+        "events": [
+          {
+            "name": "anEvent",
+            "type": "any"
+          }
+        ]
+      }
+    ]
+  }

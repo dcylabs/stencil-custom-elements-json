@@ -1,0 +1,38 @@
+{
+  "name": "@dcylabs/stencil-custom-elements-json",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "test": "jest",
+    "rollup": "rollup -c rollup.config.js",
+    "build": "tsc && npm run rollup && npm run test",
+    "deploy": "npm run build && npm publish --access public"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "rollup": "^1.23.1",
+    "ts-jest": "^24.1.0",
+    "@stencil/core": "^1.5.4",
+    "@types/node": "^12.7.11",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {},
+  "author": "dcylabs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcylabs/stencil-custom-elements-json.git"
+  },
+  "keywords": [
+    "stencil",
+    "custom-elements",
+    "custom-elements.json",
+    "storybook",
+    "docs"
+  ]
+}
